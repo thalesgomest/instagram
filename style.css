@@ -412,8 +412,6 @@ nav {
 .help-links {
   margin-top: 33px;
   height: 42px;
-/*   display: flex;
-  justify-content: space-between; */
   background-color: #FAFAFA;
   
 }
@@ -500,7 +498,6 @@ nav {
     border: none;
     background-color: #FAFAFA
 ;
-    /* margin-top: 54px; */
   }
 
   .body-instagram {
