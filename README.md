@@ -43,16 +43,17 @@ The goal was to make the page as similar as possible to the layout provided!</p>
     - [x] There cannot be a visible horizontal scroll
 
 * **BONUS**
-  * **VIDEO**
+
+  **VIDEO**
    - [ ] At least one of the posts must be a video
    - [ ] No play button required
    - [ ] The video must be inserted in .mp4 or .ogg format, so that it works in any browser
    - [ ] Video should start automatically
 
-  * **SIDE BAR**
+  **SIDE BAR**
    - [ ] sidebar stays fixed as the user scrolls down the page like on Instagram
   
-  * **COMMENTS**
+  **COMMENTS**
    - [ ] Have comments on posts, with a like button in the right corner of each comment
    - [ ] A box to type the comment, using the `input` tag
    - [ ] A button next to this box to Publish, with color `#B2DFFC` initially and, when hovering the mouse, stay with color `#0095F6` with a transition that lasts `300ms` 
