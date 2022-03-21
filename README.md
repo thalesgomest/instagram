@@ -5,10 +5,10 @@
 
 <h1 align="center">Projeto Instagram</h1>
 
-![uses-html5](https://user-images.githubusercontent.com/97575616/152926412-a8c6da7f-0d54-4253-a820-cb264210bbcf.svg)
-![uses-css](https://user-images.githubusercontent.com/97575616/152917480-e46ad631-d96c-413d-8b62-25012c52c7fc.svg)
-![built-with-git (1)](https://user-images.githubusercontent.com/97575616/152927121-6e37ae20-6f09-4f84-9bdf-889ef6ef5773.svg)
-![built-with-visual-studio-code](https://user-images.githubusercontent.com/97575616/152921255-9e6ad64b-5a0d-4f28-a3d0-f8c6a2774d85.svg)
+![uses-html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![uses-css](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![built-with-git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
+![built-with-vsc](https://img.shields.io/badge/VISUAL%20STUDIO%20CODE-blue?style=for-the-badge&logo=visualstudiocode)
 
 ## Table of contents
 * [Project Description](#project-description)
