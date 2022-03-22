@@ -97,9 +97,6 @@ nav {
 .search-bar {
   width: 215px;
   height: 28px;
-  border: 1px solid #DBDBDB;
-  border-radius: 3px;
-  background-color: #FAFAFA;
   margin: auto 0;
   display: flex;
   justify-content: center;
@@ -321,6 +318,8 @@ input:focus::placeholder {
 .sidebar {
   width: 293px;
   background-color: #FAFAFA;
+  position: sticky;
+  top: 80px;
 }
 
 .profile-sugestion {
