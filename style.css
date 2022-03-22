@@ -274,9 +274,16 @@ input:focus::placeholder {
 /* config posicionamento imagens dos posts do instagram */
 .img-instagrampost {
   height: 612px;
+  width: 612px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.img-instagrampost video {
+  height: auto;
+  width: 612px;
+  margin: auto;
 }
 
 .img-postinsta {
