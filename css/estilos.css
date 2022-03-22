@@ -1,0 +1,415 @@
+/* geral */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #FAFAFA;
+}
+
+ion-icon {
+  font-size: 22px;
+}
+
+strong {
+  font-weight: 500;
+  color: #262626;
+}
+
+/* header */
+
+header {
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 54px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 1px solid #DBDBDB;
+  z-index: 1;
+}
+
+header .navbar-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+  width: 100%;
+}
+
+.navbar-desktop {
+  display: none;
+  width: 935px;
+}
+
+
+nav img {
+  height: 29px;
+  cursor: pointer;
+  position: relative;
+  top: 3px;
+}
+
+nav ion-icon {
+  /* margin: 0 20px; */
+  cursor: pointer;
+}
+
+
+.navbar-desktop-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-desktop-logo .separador {
+    width: 1px;
+    height: 22px;
+    background-color: #DBDBDB;
+    margin: 0 10px;
+}
+
+
+.navbar-desktop input {
+  background-color: #FAFAFA;
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+  width: 215px;
+  height: 28px;
+  text-align: center;
+}
+
+.navbar-desktop input:focus {
+  outline: transparent;
+}
+
+.navbar-desktop input:focus::placeholder {
+  color: transparent;
+}
+
+.navbar-desktop-icones ion-icon{
+  margin: 0 5px;
+}
+
+
+/* sidebar */
+
+.sidebar {
+  display: none;
+  width: 293px;
+  margin-top: 88px;
+  height: 350px;
+  padding-top: 24px; 
+  margin-left: 28px;
+}
+
+.sidebar img {
+  border-radius: 50%;
+}
+
+.sidebar-usuario {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.sidebar-usuario img {
+  width: 56px;
+  height: 56px;
+  margin-right: 17px;
+}
+
+.sidebar-usuario-nome p {
+  font-size: 14px;
+}
+
+.sidebar-usuario-nome p:nth-child(2) {
+  color: #8E8E8E;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.sidebar-sugestoes-titulo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sidebar-sugestoes-titulo p:nth-child(1) {
+  color: #8E8E8E;
+}
+
+.sidebar-sugestoes {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-sugestoes-sugestao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.sidebar-sugestoes-sugestao-nome p:first-child {
+  margin-bottom: 5px;
+}
+
+.sidebar-sugestoes-sugestao a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #139EF2;
+}
+
+.sidebar-sugestoes-sugestao-perfil {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-sugestoes-sugestao-perfil p:nth-child(1){
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.sidebar-sugestoes-sugestao-perfil p:nth-child(2){
+  font-weight: 400;
+  font-size: 12px;
+  color: #8e8e8e;
+}
+
+.sidebar-sugestoes-sugestao img {
+  width: 32px;
+  height: 32px;
+  margin-right: 11px;
+}
+
+.sidebar-infos {
+  margin-top: 20px;
+  font-size: 11px;
+  line-height: 12px;
+  color: #C7C7C7;
+}
+
+.sidebar-usuario img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+/* stories */
+
+.stories-container {
+  display: flex;
+  align-items: center;
+  height: 118px;
+  border-radius: 3px;
+  border: 1px solid #DBDBDB;
+  padding: 0 18px;
+  overflow: hidden;
+  position: relative;
+} 
+
+.story {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 14px 0;
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.story .usuario {
+  width: 66px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  height: 14px;
+}
+
+.story .thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 66px;
+  width: 66px;
+  background-image: url('../assets/img/story-circle.svg');
+  background-size: cover;
+}
+
+.thumbnail img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.setinha {
+  position: absolute;
+  right: 10px;
+  top: 45px;
+  height: 32px;
+  width: 32px;
+  color: #FFF;
+  font-size: 28px;
+  cursor: pointer;
+  /* border-radius: 50%; */
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* feed */
+
+.feed {
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.post {
+  background-color: white;
+  border: 1px solid #DBDBDB;
+  margin-bottom: 60px;
+}
+
+.post-titulo {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+}
+
+.post-titulo img {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.post video {
+  width: 100%;
+}
+
+.post-titulo--usuario {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.post-botoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px 10px;
+}
+
+.post-botoes--principais {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.post-botoes--principais * {
+  margin: 0 5px;
+}
+
+.post-curtidas {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.post-curtidas img {
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0;
+  border-top: 1px solid #DBDBDB; 
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white; 
+}
+
+/* versao desktop - intermediaria 935px */
+
+@media screen and (min-width: 634px) {
+  header .navbar-mobile {
+    display: none;
+  }
+
+  header .navbar-desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .stories {
+    margin-top: 88px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .stories-container {
+    width: 614px;
+    background-color: white;
+  }
+
+  .setinha {
+    display: block;
+  }
+
+  .post {
+    width: 614px;
+  }
+
+  footer {
+    display: none; 
+  }
+}
+
+/* versao desktop - full */
+
+@media screen and (min-width: 935px) {
+  header .navbar-mobile {
+    display: none;
+  }
+
+  header .navbar-desktop {
+    display: flex;
+  }
+  
+  .sidebar {
+    display: block;
+    position: sticky;
+    top: 88px;
+  }
+
+  main {
+    max-width: 935px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+}

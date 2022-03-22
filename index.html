@@ -2,446 +2,313 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram</title>
-    <link href="reset.css" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram</title>
+
+  <!-- fontes -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;1,400&display=swap"
+    rel="stylesheet">
+
+
+  <!-- estilos -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
+  <div class="root">
     <header>
-        <div class="topbar">
-            <div class="pagecontent">
-                <nav class="nav-desktop">
-                    <div class="left-bottons">
-                        <div class="icon">
-                            <ion-icon class="icon-instagram" name="logo-instagram"></ion-icon>
-                        </div>
-                        <div class="separador-vertical"></div>
-                        <div class="logo">
-                            <img src="imgs\Instagram_logo.svg" alt="logo instagram" width="103px" height="29px" />
-                        </div>
-                    </div>
-                    <div class="search-bar">
-                        <p class="pesquisar">Pesquisar </p>
-                    </div>
-                    <div class="right-bottons">
-                        <div class="icons">
-                            <div class="paper-plane-icon">
-                                <a href="#">
-                                    <ion-icon class="icon-instagram" name="paper-plane-outline"></ion-icon>
-                                </a>
-                            </div>
-                            <div class="compass-icon">
-                                <ion-icon class="icon-instagram" name="compass-outline"></ion-icon>
-                            </div>
-                            <div class="heart-icon">
-                                <ion-icon class="icon-instagram" name="heart-outline"></ion-icon>
-                            </div>
-                            <div class="person-icon">
-                                <ion-icon class="icon-instagram" name="person-outline"></ion-icon>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
+      <!-- navbar: mobile -->
+      <nav class="navbar-mobile">
+        <ion-icon name="logo-instagram"></ion-icon>
+        <img src="assets/img/logo.png" alt="Logo do Instagram" />
+        <ion-icon name="paper-plane-outline"></ion-icon>
+      </nav>
+
+      <!-- navbar: desktop -->
+      <nav class="navbar-desktop">
+        <div class="navbar-desktop-logo">
+          <ion-icon name="logo-instagram"></ion-icon>
+          <div class="separador"></div>
+          <img src="assets/img/logo.png" alt="Logo do Instagram" />
         </div>
-        <div class="nav-mobile-display">
-            <div class="nav-mobile">
-                <div class="icon-instagram-mobile-top">
-                    <ion-icon class="icon-instagram" name="logo-instagram"></ion-icon>
-                </div>
-                <div class="logo">
-                    <img src="imgs\Instagram_logo.svg" alt="logo instagram" width="103px" height="29px" />
-                </div>
-                <div class="paper-plane-icon-top">
-                    <a href="#">
-                        <ion-icon class="icon-instagram" name="paper-plane-outline"></ion-icon>
-                    </a>
-                </div>
-            </div>
+        <input type="text" placeholder="Pesquisar" />
+        <div class="navbar-desktop-icones">
+          <ion-icon name="paper-plane-outline"></ion-icon>
+          <ion-icon name="compass-outline"></ion-icon>
+          <ion-icon name="heart-outline"></ion-icon>
+          <ion-icon name="person-outline"></ion-icon>
         </div>
+      </nav>
     </header>
-    <div class="pagecontent">
-        <div class="body-instagram">
-            <div class="instagramcontent">
-                <div class="stories-area">
-                    <div class="story-background-one">
-                        <div class="background-img">
-                            <img class="img-backgroud" src="imgs/stories_background.png" alt="background-img" />
-                        </div>
-                        <div class=img>
-                            <img class="story-img" src="imgs\9gag.png" alt="9gag" />
-                            <p class="txt-story">9gag</p>
-                        </div>
-                    </div>
-                    <div class="story-background">
-                        <div class="background-img">
-                            <img class="img-backgroud" src="imgs/stories_background.png" alt="background-img" />
-                        </div>
-                        <div class="img">
-                            <img class="story-img" src="imgs\meowed.png" alt="meowed" />
-                            <p class="txt-story">meowed</p>
-                        </div>
-                    </div>
-                    <div class="story-background">
-                        <div class="background-img">
-                            <img class="img-backgroud" src="imgs/stories_background.png" alt="background-img" />
-                        </div>
-                        <div class="img">
-                            <img class="story-img" src="imgs\barked.png" alt="barked" />
-                            <p class="txt-story">barked</p>
-                        </div>
-                    </div>
-                    <div class="story-background">
-                        <div class="background-img">
-                            <img class="img-backgroud" src="imgs/stories_background.png" alt="background-img" />
-                        </div>
-                        <div class="img">
-                            <img class="story-img" src="imgs\nathanwpylestrangeplanet.png"
-                                alt="nathanwpylestrangeplanet" />
-                            <p class="txt-story">nathanwpyle...</p>
-                        </div>
-                    </div>
-                    <div class="story-background">
-                        <div class="background-img">
-                            <img class="img-backgroud" src="imgs/stories_background.png" alt="background-img" />
-                        </div>
-                        <div class="img">
-                            <img class="story-img" src="imgs\wawawiwacomicsa.png" alt="wawawiwacomicsa" />
-                            <p class="txt-story">wawawiwac...</p>
-                        </div>
-                    </div>
-                    <div class="story-background">
-                        <div class="background-img">
-                            <img class="img-backgroud" src="imgs/stories_background.png" alt="background-img" />
-                        </div>
-                        <div class="img">
-                            <img class="story-img" src="imgs\respondeai.png" alt="respondeai" />
-                            <p class="txt-story">respondeai</p>
-                        </div>
-                    </div>
-                    <div class="story-background">
-                        <div class="background-img">
-                            <img class="img-backgroud" src="imgs/stories_background.png" alt="background-img" />
-                        </div>
-                        <div class="img">
-                            <img class="story-img" src="imgs\filomoderna.png" alt="filomoderna" />
-                            <p class="txt-story">filomoderna</p>
-                        </div>
-                    </div>
-                    <div class="story-background">
-                        <div class="background-img">
-                            <img class="img-backgroud" src="imgs/stories_background.png" alt="background-img" />
-                        </div>
-                        <div class="img">
-                            <img class="story-img" src="imgs\filomoderna.png" alt="filomoderna" />
-                            <p class="txt-story">filomoderna</p>
-                        </div>
-                    </div>
-                    <div class="story-background">
-                        <div class="background-img">
-                            <img class="img-backgroud" src="imgs/stories_background.png" alt="background-img" />
-                        </div>
-                        <div class="img">
-                            <img class="story-img" src="imgs\filomoderna.png" alt="filomoderna" />
-                        </div>
-                    </div>
-                    <div class="seta">
-                        <div class="seta-stories">
-                            <ion-icon class="storie-seta" name="chevron-forward-circle"></ion-icon>
-                        </div>
-                    </div>
-                </div>
-                <div class="first-post-area">
-                    <div class="top-instagrampost">
-                        <div class="profile-post-image">
-                            <img class="profile-img-post" src="imgs/meowed.png" />
-                        </div>
-                        <div class="name-profile">
-                            <p class="profile-name">meowed</p>
-                        </div>
-                    </div>
-                    <div class="img-instagrampost">
-                        <img class="img-postinsta" src="imgs\coidei.jpg" alt="coidei" />
-                    </div>
-                    <div class="bottom-instagrampost">
-                        <div class="buttons-bottom">
-                            <div class="left-buttons-post">
-                                <div class="heart-icon">
-                                    <ion-icon class="icon-instagram" name="heart-outline"></ion-icon>
-                                </div>
-                                <div class="chatbubble-outline">
-                                    <ion-icon class="icon-instagram" name="chatbubble-outline"></ion-icon>
-                                </div>
-                                <div class="paper-plane-outline">
-                                    <ion-icon class="icon-instagram" name="paper-plane-outline"></ion-icon>
-                                </div>
-                            </div>
-                            <div class="right-buttons-post">
-                                <div class="bookmark-outline">
-                                    <ion-icon class="icon-instagram" name="bookmark-outline"></ion-icon>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="likes">
-                            <div class="like-img">
-                                <img class="img-likes" src="imgs\respondeai_likes.png" />
-                            </div>
-                            <div class="like-txt">
-                                <p class="txt-likes">Curtido por <strong>respondeai</strong> e <strong>outras 101.523
-                                        pessoas</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="other-areas">
-                    <div class="top-instagrampost">
-                        <div class="profile-post-image">
-                            <img class="profile-img-post" src="imgs/barked.png" />
-                        </div>
-                        <div class="name-profile">
-                            <p class="profile-name">barked</p>
-                        </div>
-                    </div>
-                    <div class="img-instagrampost">
-                        <img class="img-postinsta" src="imgs/dog 1.png" alt="dog 1" />
-                    </div>
-                    <div class="bottom-instagrampost">
-                        <div class="buttons-bottom">
-                            <div class="left-buttons-post">
-                                <div class="heart-icon">
-                                    <ion-icon class="icon-instagram" name="heart-outline"></ion-icon>
-                                </div>
-                                <div class="chatbubble-outline">
-                                    <ion-icon class="icon-instagram" name="chatbubble-outline"></ion-icon>
-                                </div>
-                                <div class="paper-plane-outline">
-                                    <ion-icon class="icon-instagram" name="paper-plane-outline"></ion-icon>
-                                </div>
-                            </div>
-                            <div class="right-buttons-post">
-                                <div class="bookmark-outline">
-                                    <ion-icon class="icon-instagram" name="bookmark-outline"></ion-icon>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="likes">
-                            <div class="like-img">
-                                <img class="img-likes" src="imgs\respondeai_likes.png" alt="respondeai" />
-                            </div>
-                            <div class="like-txt">
-                                <p class="txt-likes">Curtido por <strong>adorable_animals</strong> e <strong>outras
-                                        99.159 pessoas</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="other-areas">
-                    <div class="top-instagrampost">
-                        <div class="profile-post-image">
-                            <img class="profile-img-post" src="imgs/meowed.png" />
-                        </div>
-                        <div class="name-profile">
-                            <p class="profile-name">meowed</p>
-                        </div>
-                    </div>
-                    <div class="img-instagrampost">
-                        <img class="img-postinsta" src="imgs/dog_pijama.jpg" alt="dog_pijama" />
-                    </div>
-                    <div class="bottom-instagrampost">
-                        <div class="buttons-bottom">
-                            <div class="left-buttons-post">
-                                <div class="heart-icon">
-                                    <ion-icon class="icon-instagram" name="heart-outline"></ion-icon>
-                                </div>
-                                <div class="chatbubble-outline">
-                                    <ion-icon class="icon-instagram" name="chatbubble-outline"></ion-icon>
-                                </div>
-                                <div class="paper-plane-outline">
-                                    <ion-icon class="icon-instagram" name="paper-plane-outline"></ion-icon>
-                                </div>
-                            </div>
-                            <div class="right-buttons-post">
-                                <div class="bookmark-outline">
-                                    <ion-icon class="icon-instagram" name="bookmark-outline"></ion-icon>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="likes">
-                            <div class="like-img">
-                                <img class="img-likes" src="imgs/adorableanimals 2.png" alt="adorableanimals" />
-                            </div>
-                            <div class="like-txt">
-                                <p class="txt-likes">Curtido por <strong>respondeai</strong> e <strong>outras 101.523
-                                        pessoas</strong></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+    <main>
+      <div class="stories-posts">
+        <!-- stories -->
+        <section class="stories">
+          <div class="stories-container">
+            <div class="story">
+              <div class="thumbnail">
+                <img src="assets/img/9gag.svg" alt="story">
+              </div>
+              <div class="usuario">
+                9gag
+              </div>
             </div>
-            <div class="sidebar">
-                <div class="profile-sugestion">
-                    <div class="profile">
-                        <div class=img-profile-sugestion>
-                            <img class="story-img" src="imgs/catanacomics 1.png" alt="catanacomics" />
-                        </div>
-                        <div class="txt-profile-suggestion">
-                            <div class="txt-profile-suggestion-1">
-                                <p class="txt-suggestion-1">catanacomics</p>
-                            </div>
-                            <div class="txt-profile-suggestion-2">
-                                <p class="txt-suggestion-2">Catana</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="suggestion">
-                        <div class="suggestion-for-you">
-                            <p class="suggestion-for-you-txt">Sugestões para você</p>
-                        </div>
-                        <div class="view-all">
-                            <p class="view-all-txt">Ver tudo</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="profiles-follow">
-                    <div class="profile-suggestion-for-you">
-                        <div class="profiles">
-                            <div class=img-profiles-sugestion>
-                                <img class="profiles-img" src="imgs/badvibesmemes 1.png" alt="badvibesmemes" />
-                            </div>
-                            <div class="txt-profiles-suggestion">
-                                <div class="txt-profiles-suggestion-1">
-                                    <p class="txt-profiles-1">bad.vibes.memes</p>
-                                </div>
-                                <div class="txt-profile-suggestion-2">
-                                    <p class="txt-profiles-2">Segue você</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="follow">
-                        <p class="follow-txt">Seguir</p>
-                    </div>
-                </div>
-                <div class="profiles-follow">
-                    <div class="profile-suggestion-for-you">
-                        <div class="profiles">
-                            <div class=img-profiles-sugestion>
-                                <img class="profiles-img" src="imgs/chibirdart 1.png" alt="chibirdart" />
-                            </div>
-                            <div class="txt-profiles-suggestion">
-                                <div class="txt-profiles-suggestion-1">
-                                    <p class="txt-profiles-1">chibirdart</p>
-                                </div>
-                                <div class="txt-profile-suggestion-2">
-                                    <p class="txt-profiles-2">Segue você</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="follow">
-                        <p class="follow-txt">Seguir</p>
-                    </div>
-                </div>
-                <div class="profiles-follow">
-                    <div class="profile-suggestion-for-you">
-                        <div class="profiles">
-                            <div class=img-profiles-sugestion>
-                                <img class="profiles-img" src="imgs/razoesparaacreditar 1.png"
-                                    alt="razoesparaacreditar" />
-                            </div>
-                            <div class="txt-profiles-suggestion">
-                                <div class="txt-profiles-suggestion-1">
-                                    <p class="txt-profiles-1">razoesparaacreditar</p>
-                                </div>
-                                <div class="txt-profile-suggestion-2">
-                                    <p class="txt-profiles-2">Segue você</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="follow">
-                        <p class="follow-txt">Seguir</p>
-                    </div>
-                </div>
-                <div class="profiles-follow">
-                    <div class="profile-suggestion-for-you">
-                        <div class="profiles">
-                            <div class=img-profiles-sugestion>
-                                <img class="profiles-img" src="imgs/adorableanimals 2.png" alt="adorable_animals" />
-                            </div>
-                            <div class="txt-profiles-suggestion">
-                                <div class="txt-profiles-suggestion-1">
-                                    <p class="txt-profiles-1">adorable_animals</p>
-                                </div>
-                                <div class="txt-profile-suggestion-2">
-                                    <p class="txt-profiles-2">Segue você</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="follow">
-                        <p class="follow-txt">Seguir</p>
-                    </div>
-                </div>
-                <div class="profiles-follow">
-                    <div class="profile-suggestion-for-you">
-                        <div class="profiles">
-                            <div class=img-profiles-sugestion>
-                                <img class="profiles-img" src="imgs/smallcutecats 1.png" alt="smallcutecats" />
-                            </div>
-                            <div class="txt-profiles-suggestion">
-                                <div class="txt-profiles-suggestion-1">
-                                    <p class="txt-profiles-1">smallcutecats</p>
-                                </div>
-                                <div class="txt-profile-suggestion-2">
-                                    <p class="txt-profiles-2">Segue você</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="follow">
-                        <p class="follow-txt">Seguir</p>
-                    </div>
-                </div>
-                <div class="help-links">
-                    <p class="link-help">Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos •
-                        Localizações • Contas mais relevantes • Hashtags • Idioma</p>
-                </div>
-                <div class="company">
-                    <p class="txt-company">© 2021 INSTAGRAM DO FACEBOOK</p>
-                </div>
+            <div class="story">
+              <div class="thumbnail">
+                <img src="assets/img/meowed.svg" alt="story">
+              </div>
+              <div class="usuario">
+                meowed
+              </div>
             </div>
+            <div class="story">
+              <div class="thumbnail">
+                <img src="assets/img/barked.svg" alt="story">
+              </div>
+              <div class="usuario">
+                barked
+              </div>
+            </div>
+            <div class="story">
+              <div class="thumbnail">
+                <img src="assets/img/nathanwpylestrangeplanet.svg" alt="story">
+              </div>
+              <div class="usuario">
+                nathanwpylestrangeplanet
+              </div>
+            </div>
+            <div class="story">
+              <div class="thumbnail">
+                <img src="assets/img/wawawicomics.svg" alt="story">
+              </div>
+              <div class="usuario">
+                wawawicomics
+              </div>
+            </div>
+            <div class="story">
+              <div class="thumbnail">
+                <img src="assets/img/respondeai.svg" alt="story">
+              </div>
+              <div class="usuario">
+                respondeai
+              </div>
+            </div>
+            <div class="story">
+              <div class="thumbnail">
+                <img src="assets/img/filomoderna.svg" alt="story">
+              </div>
+              <div class="usuario">
+                filomoderna
+              </div>
+            </div>
+            <div class="story">
+              <div class="thumbnail">
+                <img src="assets/img/memeriagourmet.svg" alt="story">
+              </div>
+              <div class="usuario">
+                memeriagourmet
+              </div>
+            </div>
+
+            <ion-icon class="setinha" name="chevron-forward-circle"></ion-icon>
+          </div>
+        </section>
+
+        <!-- feed -->
+        <section class="feed">
+          <!-- post-->
+          <article class="post">
+            <div class="post-titulo">
+              <div class="post-titulo--usuario">
+                <img src="assets/img/meowed.svg" alt="usuario" />
+                <p>meowed</p>
+              </div>
+              <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+            </div>
+            <div class="post-imagem">
+              <img src="assets/img/gato-telefone.svg" alt="post-imagem" />
+            </div>
+            <div class="post-botoes">
+              <div class="post-botoes--principais">
+                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="chatbubble-outline"></ion-icon>
+                <ion-icon name="paper-plane-outline"></ion-icon>
+              </div>
+              <ion-icon name="bookmark-outline"></ion-icon>
+            </div>
+            <div class="post-curtidas">
+              <img src="assets/img/respondeai.svg" alt="ícone" />
+              <p>Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong></p>
+            </div>
+          </article>
+          <!-- post-->
+          <article class="post">
+            <div class="post-titulo">
+              <div class="post-titulo--usuario">
+                <img src="assets/img/barked.svg" alt="usuario" />
+                <p>barked</p>
+              </div>
+              <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+            </div>
+            <div class="post-imagem">
+              <img src="assets/img/dog.svg" alt="post-imagem" />
+            </div>
+            <div class="post-botoes">
+              <div class="post-botoes--principais">
+                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="chatbubble-outline"></ion-icon>
+                <ion-icon name="paper-plane-outline"></ion-icon>
+              </div>
+              <ion-icon name="bookmark-outline"></ion-icon>
+            </div>
+            <div class="post-curtidas">
+              <img src="assets/img/adorable_animals.svg" alt="ícone" />
+              <p>Curtido por <strong>adorable_animals</strong> e <strong>outras 99.159 pessoas</strong></p>
+            </div>
+          </article>
+          <!-- post-->
+          <article class="post">
+            <div class="post-titulo">
+              <div class="post-titulo--usuario">
+                <img src="assets/img/meowed.svg" alt="usuario" />
+                <p>meowed</p>
+              </div>
+              <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+            </div>
+            <div class="post-imagem">
+              <video src="assets/video/video.mp4" autoplay controls></video>
+            </div>
+            <div class="post-botoes">
+              <div class="post-botoes--principais">
+                <ion-icon name="heart-outline"></ion-icon>
+                <ion-icon name="chatbubble-outline"></ion-icon>
+                <ion-icon name="paper-plane-outline"></ion-icon>
+              </div>
+              <ion-icon name="bookmark-outline"></ion-icon>
+            </div>
+            <div class="post-curtidas">
+              <img src="assets/img/respondeai.svg" alt="ícone" />
+              <p>Curtido por <strong>respondeai</strong> e <strong>outras 101.523 pessoas</strong></p>
+            </div>
+          </article>
+        </section>
+      </div>
+
+      <!-- sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-usuario">
+          <img src="assets/img/catanacomics.svg" alt="perfil do usuario">
+          <div class="sidebar-usuario-nome">
+            <p><strong>catanacomics</strong></p>
+            <p>Catana</p>
+          </div>
         </div>
-        <div class=fix-bottombar-mobile-display>
-            <div class="fix-bottombar-mobile">
-                <div class="icon-instagram-mobile-home">
-                    <ion-icon class="icon-instagram" name="home"></ion-icon>
-                </div>
-                <div class="icon-instagram">
-                    <ion-icon class="icon-instagram" name="search-outline"></ion-icon>
-                </div>
-                <div class="paper-plane-icon">
-                    <a href="#">
-                        <ion-icon class="icon-instagram" name="add-circle-outline"></ion-icon>
-                    </a>
-                </div>
-                <div class="heart-outline">
-                    <ion-icon class="icon-instagram" name="heart-outline"></ion-icon>
-                </div>
-                <div class="person-outline">
-                    <ion-icon class="icon-instagram" name="person-outline"></ion-icon>
-                </div>
+
+        <!-- sugestoes-->
+        <div class="sidebar-sugestoes">
+          <div class="sidebar-sugestoes-titulo">
+            <p>Sugestões para você</p>
+            <p>Ver tudo</p>
+          </div>
+
+          <!-- sugestao -->
+          <div class="sidebar-sugestoes-sugestao">
+            <div class="sidebar-sugestoes-sugestao-perfil">
+              <img src="assets/img/bad.vibes.memes.svg" />
+              <div class=" sidebar-sugestoes-sugestao-nome">
+              <p>bad.vibes.memes</p>
+              <p>Segue você</p>
             </div>
+          </div>
+          <div class="sidebar-sugestoes-sugestao-link">
+            <a href="#">Seguir</a>
+          </div>
         </div>
-    </div>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+        <!-- sugestao -->
+        <div class="sidebar-sugestoes-sugestao">
+          <div class="sidebar-sugestoes-sugestao-perfil">
+            <img src="assets/img/chibirdart.svg" />
+            <div class="sidebar-sugestoes-sugestao-nome">
+              <p>chibirdart</p>
+              <p>Segue você</p>
+            </div>
+          </div>
+          <div class="sidebar-sugestoes-sugestao-link">
+            <a href="#">Seguir</a>
+          </div>
+        </div>
+
+        <!-- sugestao -->
+        <div class="sidebar-sugestoes-sugestao">
+          <div class="sidebar-sugestoes-sugestao-perfil">
+            <img src="assets/img/razoesparaacreditar.svg" />
+            <div class="sidebar-sugestoes-sugestao-nome">
+              <p>razoesparaacreditar</p>
+              <p>Novo no Instagram</p>
+            </div>
+          </div>
+          <div class="sidebar-sugestoes-sugestao-link">
+            <a href="#">Seguir</a>
+          </div>
+        </div>
+
+        <!-- sugestao -->
+        <div class="sidebar-sugestoes-sugestao">
+          <div class="sidebar-sugestoes-sugestao-perfil">
+            <img src="assets/img/adorable_animals.svg" />
+            <div class="sidebar-sugestoes-sugestao-nome">
+              <p>adorable_animals</p>
+              <p>Segue você</p>
+            </div>
+          </div>
+          <div class="sidebar-sugestoes-sugestao-link">
+            <a href="#">Seguir</a>
+          </div>
+        </div>
+
+        <!-- sugestao -->
+        <div class="sidebar-sugestoes-sugestao">
+          <div class="sidebar-sugestoes-sugestao-perfil">
+            <img src="assets/img/smallcutecats.svg" />
+            <div class="sidebar-sugestoes-sugestao-nome">
+              <p>smallcutecats</p>
+              <p>Segue você</p>
+            </div>
+          </div>
+          <div class="sidebar-sugestoes-sugestao-link">
+            <a href="#">Seguir</a>
+          </div>
+        </div>
+
+        <div class="sidebar-infos">
+          <p>Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes •
+            Hashtags • Idioma</p>
+          <br />
+          <p>© 2021 INSTAGRAM DO FACEBOOK</p>
+        </div>
+  </div>
+  </aside>
+  </main>
+
+
+  <!-- footer -->
+  <footer>
+    <ion-icon name="home-outline"></ion-icon>
+    <ion-icon name="search-outline"></ion-icon>
+    <ion-icon name="add-circle-outline"></ion-icon>
+    <ion-icon name="heart-outline"></ion-icon>
+    <ion-icon name="person-outline"></ion-icon>
+  </footer>
+
+  <!-- ícones -->
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  </div>
 </body>
 
 </html>
